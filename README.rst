@@ -12,6 +12,7 @@ Prerequisites
 Install virtualenv on Fedora:
 
 .. code:: shell
+
   $ sudo yum install python-virtualenv
 
 Setup
@@ -20,27 +21,32 @@ Setup
 Set up a virtualenv:
 
 .. code:: shell
+
   $ virtualenv -p /usr/bin/python3 env
   $ source env/bin/activate
 
 Install Pelican:
 
 .. code:: shell
+
   $ pip install pelican
 
 Download the theme:
 
 .. code:: shell
+
   $ ./setup.py
 
 Build
 =====
 
 .. code:: shell
+
   $ pelican
 
 Development server
 ==================
 
 .. code:: shell
+
   $ ./develop_server.sh
